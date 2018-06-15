@@ -1,0 +1,170 @@
+header {
+  text-align: center;
+  background-image: url('../img/backheader.jpg');
+  height: 186px;
+}
+
+.headerimg {
+  margin-bottom: 15px;
+  height: 120px;
+}
+
+.nav-link {
+  color: lightgray;
+  font-family: Snell Roundhand, cursive;
+  font-size: 20px;
+}
+
+.nav-link:hover {
+  background-color: lightgray;
+  color: black;
+  font-family: Snell Roundhand, cursive;
+  font-size: 20px;
+}
+
+.vertical-line {
+  border-left: 1px solid lightgray;
+}
+
+.body {
+  height: 600px;
+  background-image: url('../img/bodyback.jpeg');
+}
+
+.grid-container {
+  display: grid;
+  height: 100%;
+  padding: 2% 5% 2% 5%;
+  grid-template-columns: repeat(24, 4.16%);
+  grid-template-rows: repeat(20, 5%);
+}
+
+.img1 {
+  background-image: url('../img/mobi.jpg');
+  background-size: cover;
+  text-align: center;
+  vertical-align: middle;
+  height: 100%;
+  width: 100%;
+  grid-column: 2/8;
+  grid-row: 2/10;
+}
+
+.img-desayunos {
+  grid-column: 1/13;
+  grid-row: 1/21;
+}
+
+.text-desayunos {
+  grid-column: 13/25;
+  grid-row: 1/21;
+}
+
+
+.img2 {
+  background-image: url('../img/mobi.jpg');
+  background-size: cover;
+  text-align: center;
+  vertical-align: middle;
+  height: 100%;
+  width: 100%;
+  grid-column: 10/16;
+  grid-row: 2/10;
+}
+
+.img3 {
+  background-image: url('../img/mobi.jpg');
+  background-size: cover;
+  text-align: center;
+  vertical-align: middle;
+  height: 100%;
+  width: 100%;
+  grid-column: 18/24;
+  grid-row: 2/10;
+}
+
+.img4 {
+  background-image: url('../img/mobi.jpg');
+  background-size: cover;
+  text-align: center;
+  vertical-align: middle;
+  height: 100%;
+  width: 100%;
+  grid-column: 2/8;
+  grid-row: 12/20;
+}
+
+.img5 {
+  background-image: url('../img/mobi.jpg');
+  background-size: cover;
+  text-align: center;
+  vertical-align: middle;
+  height: 100%;
+  width: 100%;
+  grid-column: 10/16;
+  grid-row: 12/20;
+}
+
+.img6 {
+  background-image: url('../img/mobi.jpg');
+  background-size: cover;
+  text-align: center;
+  vertical-align: middle;
+  height: 100%;
+  width: 100%;
+  grid-column: 18/24;
+  grid-row: 12/20;
+}
+
+.zoom {
+  transition: transform .8s;
+  box-sizing: border-box;
+}
+
+.zoom:hover {
+  transform: scale(1.2);
+  border: 1px solid white;
+}
+
+
+.magic-box-img  {
+  opacity: 0;
+  transition: opacity .8s;
+}
+
+.magic-box-show {
+  opacity: 1;
+}
+
+.img-lafete {
+  margin-top: 15%;
+  width: 140px;
+  height: 100px;
+}
+
+.text-lafete {
+  margin-top: 7%;
+  color: white;
+  font-family: Snell Roundhand, cursive;
+  font-size: 30px;
+}
+
+.show {
+  display: block;
+}
+
+.not-show {
+  display: none;
+}
+
+footer {
+  text-align: center;
+  background-image: url('../img/backheader.jpg');
+  color: lightgray;
+  font-family: Arial Narrow, sans-serif;
+  position: absolute;
+  width: 100%;
+  height: 40px;
+  bottom: 0;
+  padding-top: 8px;
+}
